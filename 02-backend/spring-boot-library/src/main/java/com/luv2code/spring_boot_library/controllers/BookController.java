@@ -1,7 +1,7 @@
-package com.luv2code.spring_boot_library.controller;
+package com.luv2code.spring_boot_library.controllers;
 
 import com.luv2code.spring_boot_library.entity.Book;
-import com.luv2code.spring_boot_library.service.BookService;
+import com.luv2code.spring_boot_library.service.impl.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.luv2code.spring_boot_library.service;
+package com.luv2code.spring_boot_library.service.impl;
 
 import com.luv2code.spring_boot_library.dao.BookRepository;
 import com.luv2code.spring_boot_library.dao.CheckoutRepository;

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import BookModel from "../../models/BookModel";
-import { SpinnerLoading } from "../Utils/SpinnerLoading";
-import { StartsReview } from "../Utils/StartsReview";
+import { SpinnerLoading } from "../utils/SpinnerLoading";
+import { StartsReview } from "../utils/StartsReview";
 import { CheckoutAndReviewBox } from "./CheckoutAndReviewBox";
 import ReviewModel from "../../models/ReviewModel";
 import { LatestReviews } from "./LatestReviews";
