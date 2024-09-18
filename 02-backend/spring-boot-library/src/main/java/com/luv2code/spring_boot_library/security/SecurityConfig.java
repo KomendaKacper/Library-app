@@ -37,6 +37,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests((requests) ->
                         requests
                                 .requestMatchers("/api/books").permitAll() // Public API endpoint
+                                .requestMatchers("/api").permitAll() // Public API endpoint
                                 .requestMatchers("/api/books/secure/**").authenticated()
                                 .requestMatchers("api/csrf-token").permitAll()
                                 .requestMatchers("/api/auth/public/**").permitAll()
